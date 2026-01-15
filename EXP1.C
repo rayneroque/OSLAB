@@ -5,8 +5,7 @@
 
 int main(int argc, char *arg[])
 {
-    int pid;
-    pid = fork();
+    int pid= fork();
     
     if (pid < 0) {
         printf("fork failed\n");  
@@ -14,7 +13,7 @@ int main(int argc, char *arg[])
     }
     else if (pid == 0) {
         execlp("whoami", "whoami", NULL);  
-        exit(0); 
+        exit(1); 
     }
     else {
         printf("\nProcess ID is:   %d\n", getpid());
