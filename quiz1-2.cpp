@@ -38,8 +38,8 @@ int main() {
     }
 
     // Display average waiting time and average turnaround time
-    cout <<"\nAverage Waiting Time: " << wtavg;
-    cout <<"\nAverage Turnaround Time: " << tatavg;
+    cout <<"\nAverage Waiting Time: " << wtavg / n;
+    cout <<"\nAverage Turnaround Time: " << tatavg / n;
 
     return 0;
 }
