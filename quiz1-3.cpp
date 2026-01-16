@@ -14,7 +14,6 @@ int main() {
     float total = 0; // Variable for calculating totals
 
     // Sort processes by burst time in ascending order (Shortest Job First)
-    // Using bubble sort to arrange processes with shorter burst times first
     for (int i = 0; i < n - 1; i++) {
         for (int j = i + 1; j < n; j++) {
             if (burst[i] > burst[j]) {
