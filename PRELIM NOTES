@@ -1,0 +1,28 @@
+USING C++, MAKE A FILE NAMED PRELIM.CPP
+contains code for executing algorithms (in order): 
+round robin
+shortest job first
+shortest remaining time first
+*recommended time quantum
+
+can put different values
+make sure that the variables are not used in full term, should be in acronym (turnaround time = tt) use, tt.
+make sure variables processed are encapulated in struc named "process"
+there should be a calculator for quantum time in round robin, should calculate the median or mean of burst time to calculate quantum time. 
+- the calculated quantum should be used
+- should be named "recommended time quantum"
+
+display in table the result values
+it should look as follows: column for process id, arrival time, burst time, completion time, turnaround time, waiting time. after the table, output the average turn around time, and average waiting time. 
+in main, the arrival and burst time should be declared 
+- it should be as follows
+- arrival time: 4, 2, 3, 6, 1, 5, 8, 7
+- burst time: 53, 43, 18, 16, 44, 73, 99, 27
+
+it should display the table in order, one table per algorithm (there should be 3): rr, sjf, srtf. 
+the main should declare, it should automtically run all
+the order of the code should be: reco time quantum, rr, sjf,srtf, main
+
+all should be in three algorithms and should produce the tables
+
+
